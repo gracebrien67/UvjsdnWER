@@ -2,12 +2,9 @@
 
 package buildcfg
 
-import "runtime"
-
 const defaultGO386 = `sse2`
 const defaultGOAMD64 = `v1`
 const defaultGOARM = `7`
-const defaultGOMIPS = `hardfloat`
 const defaultGOMIPS64 = `hardfloat`
 const defaultGOPPC64 = `power8`
 const defaultGOEXPERIMENT = ``
